@@ -1,0 +1,67 @@
+# CHECK IP NODE JS
+
+Proram untuk cek Ip dari API http://ip-api.com/json/
+Response API
+{
+"status": "success",
+"country": "Australia",
+"countryCode": "AU",
+"region": "NSW",
+"regionName": "New South Wales",
+"city": "Sydney",
+"zip": "2000",
+"lat": -33.8591,
+"lon": 151.2002,
+"timezone": "Australia/Sydney",
+"isp": "Amazon.com, Inc.",
+"org": "AWS EC2 (ap-southeast-2)",
+"as": "AS16509 Amazon.com, Inc.",
+"query": "3.26.163.239"
+}
+
+## Deskripsi
+Response API
+{
+"status": "success",
+"country": "Australia",
+"countryCode": "AU",
+"region": "NSW",
+"regionName": "New South Wales",
+"city": "Sydney",
+"zip": "2000",
+"lat": -33.8591,
+"lon": 151.2002,
+"timezone": "Australia/Sydney",
+"isp": "Amazon.com, Inc.",
+"org": "AWS EC2 (ap-southeast-2)",
+"as": "AS16509 Amazon.com, Inc.",
+"query": "3.26.163.239"
+}
+
+
+## Cara Menjalankan
+
+Ikuti langkah-langkah ini untuk menjalankan proyek secara lokal:
+
+1. Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) di sistem Anda.
+2. Clone repositori ini ke direktori lokal menggunakan perintah berikut:
+
+   ```bash
+   git clone https://github.com/nama-akun/repo.git
+3. Buka terminal atau command prompt, lalu masuk ke direktori repositori:
+
+    ```bash
+    Copy code
+    cd repo
+4. Instal dependensi dengan menjalankan perintah berikut:
+
+    ```bash
+    Copy code
+    npm install
+5. Jalankan aplikasi dengan perintah:
+
+    ```bash
+    Copy code
+    node index.js
+
+6. Buka browser dan akses http://localhost:3000 untuk melihat hasil aplikasi
