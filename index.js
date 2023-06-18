@@ -4,8 +4,11 @@ const app = express();
 const port = 3000;
 
 app.get('/', async (req, res) => {
+    const clientIP = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    const url = 'http://ip-api.com/json/'+clientIP;
+    // res.send(`Terjadi kesalahan: ${url}`);
     try {
-        const response = await axios.get('http://ip-api.com/json/');
+        const response = await axios.get(url);
         const data = response.data;
 
         if (data.status === 'success') {
